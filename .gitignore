@@ -1,0 +1,31 @@
+# .NET / C#
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+*.db
+*.db-shm
+*.db-wal
+appsettings.Production.json
+appsettings.Development.local.json
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+secrets.json
+
+# IDE & OS
+.idea/
+.vscode/
+*.suo
+*.userprefs
+.DS_Store
+Thumbs.db
